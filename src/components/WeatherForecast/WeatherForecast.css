@@ -1,6 +1,7 @@
 section {
   display: flex;
-  align-content: center;
+  justify-content: center;
+ 
 }
 
 section .weather {
@@ -8,12 +9,10 @@ section .weather {
   flex: 1;
   padding: 10px;
   text-align: center;
+ 
 }
 
 .weather span {
   font-weight: bold;
 }
 
-h1 {
-  align-content: center;
-}

@@ -1,6 +1,6 @@
-const WeatherIcon = ({ img }) => {
+const WeatherIcon = ({ img , imgAlt}) => {
     return (
-        <img src={img} />
+        <img src={img} alt={imgAlt} />
     )
 }
 
